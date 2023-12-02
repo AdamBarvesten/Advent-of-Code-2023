@@ -61,9 +61,7 @@ public class Dec01 {
 
     private static String checkString(String s){
         for (String key : map.keySet()) {
-            if (s.contains(key)) {
-                return map.get(key);
-            }
+            if (s.contains(key)) return map.get(key);
         }
         return "";
     }
